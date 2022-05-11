@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="imagex/png" href="img/cadeado.png" />
+    <script
+      src="https://kit.fontawesome.com/5acba91aeb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Decodificador de Texto</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a href="#"></a>
+        <nav class="menu">
+          <a href="sobre.html">Sobre</a>
+          <a href="#links">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main id="main">
+      <!-- div que envolve tudo -->
+      <div class="wrapper">
+        <!-- entrada -->
+        <div class="col-a">
+          <div class="form">
+            <form>
+              <textarea
+                class="text-input"
+                type="text"
+                name="input-texto"
+                id="input-texto"
+                placeholder="insira o texto aqui"
+              ></textarea>
+              <br />
+              <label class="alerta" for="input-texto"
+                >! Apenas letras minúsculas, sem acento.</label
+              >
+              <div id="button">
+                <input
+                  class="btn"
+                  type="submit"
+                  value="Criptografar!"
+                  id="btn-cripto"
+                />
+                <input
+                  class="btn"
+                  type="submit"
+                  value="Descriptografar!"
+                  id="btn-descripto"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- resultado -->
+        <div class="col-b">
+          <div class="return">
+            <textarea
+              class="msg-area"
+              type="text"
+              id="mensagem"
+              placeholder="Nenhuma mensagem encontrada"
+              readonly
+            ></textarea>
+            <div class="btns">
+              <input class="btn" type="submit" value="Copiar" id="btn-copy" />
+              <button class="limpar" type="submit" id="limpar">Limpar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="col-c">
+        <div class="rodape-texto">
+          <p><i>Desenvolvido por Andressa Helena</i></p>
+        </div>
+        <div id="links" class="rodape-ancora">
+          <a target="_blank" href="https://www.linkedin.com/in/andressa-helena/"
+            ><i class="fa-brands fa-linkedin fa-xl"></i
+          ></a>
+          <a target="_blank" href="https://github.com/AndressaHelena"
+            ><i class="fa-brands fa-github fa-xl"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
