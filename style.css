@@ -249,9 +249,10 @@ main .wrapper {
 
 .cards ul {
   padding-block: 1rem;
+  margin-inline: auto;
 
   /* gambiarra */
-  padding-left: 5rem;
+ /* padding-left: 5rem;*/
 }
 
 .cards p {
