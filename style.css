@@ -168,6 +168,13 @@ main .wrapper {
   box-shadow: 0 0 15px var(--button);
 }
 
+#btns {
+  display:inline-flex;
+  align-items:center;
+  Gap: 1rem;
+
+}
+
 #btn-copy,
 #limpar {
   font-family: inherit;
