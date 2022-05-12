@@ -91,22 +91,7 @@ main .wrapper {
 
   gap: 3.2rem;
 
-  margin-top: 1.6rem;
-}
-
-/* gambiarra para mover o A */
-.alura-img {
-  margin-block: 1rem;
-  padding-inline: 3rem;
-}
-
-div.alura {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  width: 100vw;
-  border-bottom: #6c747a solid 1px;
-  margin-inline: auto;
+  margin-top: 2.4rem;
 }
 
 /* --------------------- entrada de texto --------------------- */
