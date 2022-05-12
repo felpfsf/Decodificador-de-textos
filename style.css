@@ -171,7 +171,6 @@ main .wrapper {
 .btns {
   display: flex;
   flex-direction: row;
-  Gap: 1rem;
 }
 
 #btn-copy,
