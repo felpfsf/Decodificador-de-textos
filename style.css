@@ -119,7 +119,7 @@ main .wrapper {
 #button {
   display:inline-flex;
   align-items:center;
-
+  Gap: 1rem;
 
 }
 
