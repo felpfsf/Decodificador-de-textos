@@ -117,7 +117,10 @@ main .wrapper {
 }
 
 #button {
-display:inline-flex;
+  display:inline-flex;
+  align-items:center;
+
+
 }
 
 #btn-cripto,
