@@ -169,7 +169,8 @@ main .wrapper {
 }
 
 #btns {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
 }
 
 #btn-copy,
