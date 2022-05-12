@@ -169,10 +169,7 @@ main .wrapper {
 }
 
 #btns {
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  gap: 1rem;
+  display: inline-flex;
 }
 
 #btn-copy,
