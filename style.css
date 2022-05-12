@@ -168,7 +168,7 @@ main .wrapper {
   box-shadow: 0 0 15px var(--button);
 }
 
-#btns {
+.btns {
   display: flex;
   flex-direction: row;
 }
